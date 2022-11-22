@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import './App.css'
+import './App.module.css'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <div className="App">
-      <h3>Iniciando o projeto tabela copa do mundo com REACT JS</h3>
+      <Header/>
     </div>
   )
 }
