@@ -1,0 +1,12 @@
+.footer{
+    /* background-color: #4e0f2a; */
+    background-image: linear-gradient(to right, #7c031d, #4e0f2a, #910322);
+}
+
+
+
+@media screen and (max-width: 650px){
+    .footer{
+        margin-top: 10px;
+    }
+}
