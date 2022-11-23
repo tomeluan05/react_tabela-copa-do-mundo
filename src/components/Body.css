@@ -1,20 +1,24 @@
-.body{
-    
-}
-
 .times{
     display: flex;
     justify-content: center;
     border: 1px solid black;
     flex-direction: column;
     padding: 8px 0 8px 30px;
+    
 }
 
-.taca-copa{
+.div-mascote-copa{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-image: linear-gradient(to right, #2e2e2e, #c5c5c5, #2e2e2e);
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+.mascote-copa{
+    width: 120px;
+    height: 130px;
 }
 
 p{
@@ -25,8 +29,23 @@ img{
     margin-right: 5px;
 }
 
+.primeira_coluna{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 650px){
-    .times, .taca-copa{
-        margin-top: 10px;
+    .times, .taca-copa, .div-mascote-copa{
+        margin: 10px;
+        background-color: white;
+    }
+
+    .body{
+        background-color: black;
+    }
+
+    .alinha-tabelas{
+        justify-content: center;
+        margin: 0;
     }
 }

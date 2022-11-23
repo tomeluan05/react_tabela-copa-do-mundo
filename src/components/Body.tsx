@@ -4,7 +4,7 @@ const Body = () => {
   return (
     <div>
         <div className="container-fluid body">
-          <div className="row">
+          <div className="row alinha-tabelas">
             <div className="col-md-3 times">
             <h4>Grupo A</h4>
             <div>
@@ -67,21 +67,13 @@ const Body = () => {
             </div>
           </div>
 
-          <div className="row">
-          <div className="col-md-4 taca-copa">
-              <div className="row">
-                <div className="col-md-3">teste</div>
-              </div>
-            </div>
-            <div className="col-md-4 taca-copa">
-              teste
-            </div>
-            <div className="col-md-4 taca-copa">
-              teste
+          <div className="row alinha-tabelas">
+            <div className="col-md-12 div-mascote-copa">
+            <img className='mascote-copa' src="/mascote.png" alt="Mascote da copa do mundo do Qatar" />
             </div>
           </div>
 
-          <div className="row">
+          <div className="row alinha-tabelas">
             <div className="col-md-3 times">
               <h4>Grupo E</h4>
               <div>
