@@ -2,9 +2,7 @@
     display: flex;
     justify-content: center;
     border: 1px solid black;
-    flex-direction: column;
-    padding: 8px 0 8px 30px;
-    
+    flex-direction: column;    
 }
 
 .div-mascote-copa{
@@ -29,15 +27,25 @@ img{
     margin-right: 5px;
 }
 
-.primeira_coluna{
-    display: flex;
-    justify-content: space-between;
+/* .tabela-grupos{
+    background-color: #000;
+    color: white;
+} */
+
+.tabela-time{
+    background-color: white;
+}
+
+.tabela-time:hover{
+    background-color: yellow;
+    color: black;
 }
 
 @media screen and (max-width: 650px){
     .times, .taca-copa, .div-mascote-copa{
         margin: 10px;
         background-color: white;
+        color: black;
     }
 
     .body{
