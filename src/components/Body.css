@@ -35,11 +35,11 @@ img{
 .tabela-time{
     background-color: white;
 }
-
+/* 
 .tabela-time:hover{
     background-color: yellow;
     color: black;
-}
+} */
 
 @media screen and (max-width: 650px){
     .times, .taca-copa, .div-mascote-copa{
