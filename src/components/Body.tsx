@@ -448,8 +448,8 @@ const Body = () => {
                         <p>Brasil</p>
                       </div>
                     </th>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>3</td>
+                    <td>1</td>
                     <td>0</td>
                     <td>0</td>
                   </tr>
@@ -463,7 +463,7 @@ const Body = () => {
                     <td>0</td>
                     <td>0</td>
                     <td>0</td>
-                    <td>0</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <th scope="row">
@@ -516,8 +516,8 @@ const Body = () => {
                         <p>Portugal</p>
                       </div>
                     </th>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>3</td>
+                    <td>1</td>
                     <td>0</td>
                     <td>0</td>
                   </tr>
@@ -531,7 +531,7 @@ const Body = () => {
                     <td>0</td>
                     <td>0</td>
                     <td>0</td>
-                    <td>0</td>
+                    <td>1</td>
                   </tr>
                   <tr>
                     <th scope="row">
@@ -540,9 +540,9 @@ const Body = () => {
                         <p>Uruguai</p>
                       </div>
                     </th>
+                    <td>1</td>
                     <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>1</td>
                     <td>0</td>
                   </tr>
                   <tr>
@@ -552,9 +552,9 @@ const Body = () => {
                         <p>Coreia do Sul</p>
                       </div>
                     </th>
+                    <td>1</td>
                     <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>1</td>
                     <td>0</td>
                   </tr>
                 </tbody>
