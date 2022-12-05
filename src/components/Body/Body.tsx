@@ -1,16 +1,16 @@
-import "./Body.css";
+import styles from "./Body.module.css";
 
 const Body = () => {
   return (
     <div>
-      <div className="container-fluid body">
-        <div className="row alinha-tabelas">
-          <div className="col-md-3 times pt-2 pb-1 tabela-grupos">
+      <div className={`container-fluid ${styles.body}`}>
+        <div className={`row ${styles.alinha_tabelas}`}>
+          <div className={`col-md-3 ${styles.times} pt-2 pb-1 tabela-grupos`}>
             <h4>Grupo A</h4>
             <div className="row">
               <table className="table table-bordered">
                 <thead>
-                  <tr className="tabela-time">
+                  <tr className={styles.tabela_time}>
                     <th scope="col">Equipe</th>
                     <th scope="col">Pts</th>
                     <th scope="col">V</th>
@@ -19,7 +19,7 @@ const Body = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="tabela-time">
+                  <tr className={styles.tabela_time}>
                     <th scope="row">
                       <div>
                         <img
@@ -35,7 +35,7 @@ const Body = () => {
                     <td>1</td>
                     <td>0</td>
                   </tr>
-                  <tr className="tabela-time">
+                  <tr className={styles.tabela_time}>
                     <th scope="row">
                       <div>
                         <img
@@ -51,7 +51,7 @@ const Body = () => {
                     <td>1</td>
                     <td>0</td>
                   </tr>
-                  <tr className="tabela-time">
+                  <tr className={styles.tabela_time}>
                     <th scope="row">
                       <div>
                         <img
@@ -67,7 +67,7 @@ const Body = () => {
                     <td>0</td>
                     <td>1</td>
                   </tr>
-                  <tr className="tabela-time">
+                  <tr className={styles.tabela_time}>
                     <th scope="row">
                       <div>
                         <img
@@ -87,7 +87,7 @@ const Body = () => {
               </table>
             </div>
           </div>
-          <div className="col-md-3 times pt-2 pb-1">
+          <div className={`col-md-3 ${styles.times} pt-2 pb-1 tabela-grupos`}>
             <h4>Grupo B</h4>
 
             <div className="row">
@@ -167,7 +167,7 @@ const Body = () => {
             </div>
           </div>
 
-          <div className="col-md-3 times pt-2 pb-1">
+          <div className={`col-md-3 ${styles.times} pt-2 pb-1 tabela-grupos`}>
             <h4>Grupo C</h4>
 
             <div className="row">
@@ -250,7 +250,7 @@ const Body = () => {
               </table>
             </div>
           </div>
-          <div className="col-md-3 times pt-2 pb-1">
+          <div className={`col-md-3 ${styles.times} pt-2 pb-1 tabela-grupos`}>
             <h4>Grupo D</h4>
 
             <div className="row">
@@ -335,18 +335,15 @@ const Body = () => {
           </div>
         </div>
 
-        <div className="row alinha-tabelas">
-          <div className="col-md-12 div-mascote-copa">
-            <img
-              className="mascote-copa"
-              src="/mascote.png"
-              alt="Mascote da copa do mundo do Qatar"
+        <div className={`row ${styles.alinha_tabelas}`}>
+          <div className={`col-md-12 ${styles.div_mascote_copa}`}>
+            <img className={styles.mascote_copa} src="/mascote.png" alt="Mascote da copa do mundo do Qatar"
             />
           </div>
         </div>
 
-        <div className="row alinha-tabelas">
-          <div className="col-md-3 times pt-2 pb-1">
+        <div className={`row ${styles.alinha_tabelas}`}>
+          <div className={`col-md-3 ${styles.times} pt-2 pb-1 tabela-grupos`}>
             <h4>Grupo E</h4>
 
             <div className="row">
@@ -431,7 +428,7 @@ const Body = () => {
               </table>
             </div>
           </div>
-          <div className="col-md-3 times pt-2 pb-1">
+          <div className={`col-md-3 ${styles.times} pt-2 pb-1 tabela-grupos`}>
             <h4>Grupo F</h4>
 
             <div className="row">
@@ -514,7 +511,7 @@ const Body = () => {
               </table>
             </div>
           </div>
-          <div className="col-md-3 times pt-2 pb-1">
+          <div className={`col-md-3 ${styles.times} pt-2 pb-1 tabela-grupos`}>
             <h4>Grupo G</h4>
 
             <div className="row">
@@ -598,7 +595,7 @@ const Body = () => {
               </table>
             </div>
           </div>
-          <div className="col-md-3 times pt-2 pb-1">
+          <div className={`col-md-3 ${styles.times} pt-2 pb-1 tabela-grupos`}>
             <h4>Grupo H</h4>
 
             <div className="row">

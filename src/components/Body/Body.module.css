@@ -5,7 +5,7 @@
     flex-direction: column;    
 }
 
-.div-mascote-copa{
+.div_mascote_copa{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
     padding: 5px 0 5px 0;
 }
 
-.mascote-copa{
+.mascote_copa{
     width: 120px;
     height: 130px;
 }
@@ -27,22 +27,12 @@ img{
     margin-right: 5px;
 }
 
-/* .tabela-grupos{
-    background-color: #000;
-    color: white;
-} */
-
-.tabela-time{
+.tabela_time{
     background-color: white;
 }
-/* 
-.tabela-time:hover{
-    background-color: yellow;
-    color: black;
-} */
 
 @media screen and (max-width: 650px){
-    .times, .taca-copa, .div-mascote-copa{
+    .times, .div_mascote_copa{
         margin: 10px;
         background-color: white;
         color: black;
@@ -52,7 +42,7 @@ img{
         background-color: black;
     }
 
-    .alinha-tabelas{
+    .alinha_tabelas{
         justify-content: center;
         margin: 0;
     }
